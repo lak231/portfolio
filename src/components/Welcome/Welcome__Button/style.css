@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-
-.Button {
+.Welcome__Button {
     display: grid;
     grid-column-end: span 12;
     justify-content: center;
     max-height: 50vh;
     white-space: nowrap;
-    font-family: 'Source Code Pro', monospace;
     font-size: 16pt;
 }
 
 
-.Button a {
+.Welcome__Button a {
     overflow: hidden;
     margin: 0 auto;
     border-right: .15em solid black;
