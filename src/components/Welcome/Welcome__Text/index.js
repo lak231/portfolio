@@ -3,17 +3,17 @@ import PropTypes from 'prop-types';
 
 import './style.css';
 
-export default class Welcome__Button extends Component {
+export default class Welcome__Text extends Component {
 
     render() {
         return (
-            <div className='Welcome__Button'>
-                <a>{this.props.text}. </a>
+            <div className='Welcome__Text'>
+                <p>{this.props.text} </p>
             </div>
         )
     }
 }
 
-Welcome__Button.propTypes = {
+Welcome__Text.propTypes = {
     text: PropTypes.string.isRequired
 };

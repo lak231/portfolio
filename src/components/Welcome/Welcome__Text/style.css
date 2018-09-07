@@ -1,4 +1,4 @@
-.Welcome__Button {
+.Welcome__Text {
     display: grid;
     grid-column-end: span 12;
     justify-content: center;
@@ -8,13 +8,13 @@
 }
 
 
-.Welcome__Button a {
+.Welcome__Text p {
     overflow: hidden;
     margin: 0 auto;
     border-right: .15em solid black;
     border-right-width: 15px;
     animation: typing 1.5s steps(15, end),
-    blink 0.5s infinite;
+                blink 0.5s infinite;
 }
 
 @keyframes typing{

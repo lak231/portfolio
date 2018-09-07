@@ -1,15 +1,13 @@
 import React, {Component} from 'react';
-import Logo from './Welcome__Logo';
-import Button from './Welcome__Button';
-
-import logo_URL from '../../img/logo.png';
+import LogoContainer from './Welcome__LogoContainer';
+import Text from './Welcome__Text';
 
 export default class Welcome extends Component {
     render() {
         return (
             <div>
-                <Logo logo_URL={logo_URL} />
-                <Button text='Welcome'/>
+                <LogoContainer />
+                <Text text='welcome.'/>
             </div>
         )
     }

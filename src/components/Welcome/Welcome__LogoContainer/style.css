@@ -1,0 +1,7 @@
+.Welcome__LogoContainer {
+    display: grid;
+    grid-column-end: span 12;
+    justify-content: center;
+    margin-top: calc(50vh - 12.5vh);
+    height: 25vh;
+}
