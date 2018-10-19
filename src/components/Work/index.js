@@ -32,7 +32,7 @@ export default function Work (props) {
                        title='Design Manifesto'/>
 
             <WorkEntry time={`summer 2017`}
-                       link={`https://github.com/bucknell-hci/bucknell-hci.github.io`}
+                       link={`https://bucknell-hci.github.io`}
                        description={`A website that presents viewers with a series of viewing tasks and tracks their eye-movement using Webgazer, a webcam-based eye-tracking library developed by researchers at Brown University.`}
                        position='researcher'
                        title='Viability of Webcam-based Eye-tracking Method​'/>
