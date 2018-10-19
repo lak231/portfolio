@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Welcome from '../Welcome';
-import Home from '../Home';
+import Work from '../Work';
 import About from '../About';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -12,15 +12,22 @@ export default class App extends Component {
     render() {
         return (
             <Router>
-                <div>
-                    <Nav/>
-                    <Switch>
-                        <Route exact path='/' component={Welcome} />
-                        <Route path='/home' component={Home} />
-                        <Route path='/about' component={About} />
-                    </Switch>
-                </div>
+                <Switch>
+                    <Route exact path='/' component={Welcome} />
+                    <Route path='/work' render={() =>
+                        <div>
+                            <Work/>
+                            <Nav/>
+                        </div>}
+                    />
+                    <Route path='/about' render={() =>
+                        <div>
+                            <About/>
+                            <Nav/>
+                        </div>}/>
+                </Switch>
             </Router>
+
         )
     }
 }

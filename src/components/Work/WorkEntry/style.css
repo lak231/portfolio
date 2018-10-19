@@ -1,0 +1,12 @@
+.WorkEntry-Image {
+    display: none;
+    z-index: 10;
+}
+
+.WorkEntry-Description {
+    font-size: 0.65em;
+}
+
+.WorkEntry-Title {
+    font-size: 0.75em;
+}
