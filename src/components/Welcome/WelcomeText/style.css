@@ -1,25 +1,24 @@
-.Welcome__Text {
+.WelcomeText {
     display: grid;
     grid-column-end: span 12;
     justify-content: center;
     max-height: 50vh;
     white-space: nowrap;
-    font-size: 16pt;
 }
 
 
-.Welcome__Text p {
+.WelcomeText p {
     overflow: hidden;
     margin: 0 auto;
     border-right: .15em solid black;
     border-right-width: 15px;
     animation: typing 1.5s steps(15, end),
-                blink 0.5s infinite;
+                blink 0.8s infinite;
 }
 
 @keyframes typing{
-    from { width: 0 }
-    to { width: 100% }
+    from { width: 0ch }
+    to { width: 8ch }
 }
 @keyframes blink{
     from, to { border-color: transparent }

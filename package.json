@@ -1,19 +1,24 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://github.com/lak231/portfolio.git",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "uikit": "^3.0.0-rc.19"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }

@@ -1,12 +1,8 @@
 import React from 'react';
-import Nav from './Nav';
-
-import './style.css';
+import Nav from '../Nav';
 
 export default function Home() {
     return(
-        <div className='Home'>
-            <Nav />
-        </div>
+        <Nav />
     )
 }
