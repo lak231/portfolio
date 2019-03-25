@@ -13,6 +13,7 @@ export default function About() {
             <p> My interests include front-end development, UI/UX design, and data visualization </p>
             <p style={{'font-size': '0.85em'}}>
                 le.anh.khoi.231@gmail.com
+                 / <a style={{'text-decoration': 'underline'}} href='https://www.linkedin.com/in/le-anh-khoi/'>linkedin</a>
                  / <a style={{'text-decoration': 'underline'}} href='https://github.com/lak231/'>github</a>
                  / <a style={{'text-decoration': 'underline'}} href='https://drive.google.com/open?id=1K2exlariN2hpKQLGvopXIYQIq_Uo9ziW'>Resume</a></p>
         </div>
