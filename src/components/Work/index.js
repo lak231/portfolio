@@ -1,5 +1,4 @@
 import React from 'react'
-import avatar from "../../img/avatar.jpg";
 import WorkEntry from "./WorkEntry";
 
 export default function Work (props) {

@@ -4,9 +4,6 @@ import PropTypes from 'prop-types'
 import './style.css'
 
 export default class WorkEntry extends Component {
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         return (
